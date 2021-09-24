@@ -9,6 +9,22 @@
   --accent-color: #2196f3;
 }
 /* calc(85 / 74) встроенный калькулятор */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
 .list {
   list-style: none;
 }
@@ -26,6 +42,12 @@ body {
   line-height: 1.88;
   color: #ffffff;
   background-color: #2196f3;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* -------header------ */
 .header-logo,
